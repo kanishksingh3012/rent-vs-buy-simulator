@@ -4,7 +4,20 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>app</title>
+    <title>Rent vs. Buy Simulator</title>
+    <meta name="description" content="Compare the long-term net wealth of buying a home vs. renting and investing the difference. Runs entirely in your browser." />
+    <script>
+      // Applied before React mounts to avoid a flash of the wrong theme.
+      // HeroUI themes via a `.dark` class, not prefers-color-scheme, so we set it ourselves and keep it in sync.
+      ;(function () {
+        var mq = window.matchMedia('(prefers-color-scheme: dark)')
+        var apply = function () {
+          document.documentElement.classList.toggle('dark', mq.matches)
+        }
+        apply()
+        mq.addEventListener('change', apply)
+      })()
+    </script>
   </head>
   <body>
     <div id="root"></div>

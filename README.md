@@ -5,7 +5,9 @@ Client-side simulator comparing the long-term net wealth of **buying a home** ve
 - **Engine:** pure TypeScript + [`decimal.js`](https://github.com/MikeMcl/decimal.js) (no floating-point drift)
 - **State:** Zustand
 - **Build/Test:** Vite + Vitest
-- **UI:** coming in Phase 3
+- **UI:** [HeroUI](https://heroui.com) (v3) + Tailwind CSS v4 + Recharts
+
+100% client-side — **no accounts, no backend, nothing stored or sent anywhere.**
 
 ## Getting started
 ```bash

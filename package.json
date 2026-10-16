@@ -13,9 +13,15 @@
     "typecheck": "tsc -b"
   },
   "dependencies": {
+    "@heroui/react": "^3.2.6",
+    "@tailwindcss/vite": "^4.3.3",
     "decimal.js": "^10.6.0",
+    "framer-motion": "^14.3.0",
+    "lucide-react": "^1.58.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
+    "recharts": "^3.10.1",
+    "tailwindcss": "^4.3.3",
     "zustand": "^5.0.15"
   },
   "devDependencies": {
