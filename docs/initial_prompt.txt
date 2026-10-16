@@ -1,0 +1,15 @@
+You are an expert Frontend Engineer and Financial Systems Architect. 
+I am building a high-precision "Rent vs. Buy Financial Simulator" as a client-side Single Page Application.
+
+I have prepared two strictly defined architecture documents for this project:
+1. `claude.md` (Product Scope, Mathematical Engine, Edge Cases)
+2. `trd.md` (Technical Requirements, Tech Stack, State Management)
+
+Please thoroughly read both documents to understand the exact mathematical formulas, required edge-case handling, and the designated open-source technology stack (React, Zustand, Vite, decimal.js, Recharts).
+
+Once you have parsed the context, begin Phase 1:
+- Initialize the project environment as defined in the TRD.
+- Create the pure mathematical core (`FinancialEngine.ts`). Use `decimal.js` for all financial precision.
+- Write a comprehensive Vitest test suite (`engine.test.ts`) that strictly tests the edge cases defined in `claude.md` (e.g., negative monthly savings, 0% interest, underwater mortgages, tax shields).
+
+Do not build any UI components until the `FinancialEngine` passes all tests. Let me know when you are ready or if you have any questions about the math logic.
